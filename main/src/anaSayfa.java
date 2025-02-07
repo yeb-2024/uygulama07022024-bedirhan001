@@ -11,7 +11,7 @@ public class anaSayfa implements ActionListener {
     public anaSayfa(){
 
         button.addActionListener(this);
-        button.setBackground(Color.lightGray);
+        button.setBackground(Color.GREEN);
         button.setBounds(200,200,100,50);
         frame.add(button);
 
