@@ -12,7 +12,7 @@ public class anaSayfa implements ActionListener {
 
         button.addActionListener(this);
         button.setBackground(Color.GREEN);
-        button.setBounds(200,200,100,50);
+        button.setBounds(200,200,150,50);
         frame.add(button);
 
         frame.setSize(500,500);
