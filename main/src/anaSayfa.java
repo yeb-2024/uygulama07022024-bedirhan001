@@ -27,7 +27,9 @@ public class anaSayfa implements ActionListener {
         Object source = e.getSource();
 
         if (source == button){
+            frame.dispose();
             profilSayfa profilSayfa = new profilSayfa();
+
         }
     }
 }
